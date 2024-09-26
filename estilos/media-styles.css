@@ -37,5 +37,14 @@
     #home-page p{
         font-size: 15px;
     }
-}
 
+    .btn-dark {
+        padding: 8px 15px; /* Reduz o padding em telas pequenas */
+        font-size: 14px; /* Reduz o tamanho do texto em telas pequenas */
+    }
+
+    .btn-dark i {
+        font-size: 20px; /* Reduz o tamanho do ícone em telas pequenas */
+    }
+
+}

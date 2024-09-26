@@ -36,15 +36,37 @@ body{
     color: white;
 }
 
-.btn{
-    background-color: #abb0da8e;
-    font-weight: bold;
-    
+
+.btn-dark {
+    box-shadow: 1px 0px 10px black;
+    background-color: rgba(21, 21, 21, 0.459);
+    border: none;
+    letter-spacing: 2px;
+    font-family: "roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.btn i{
-    font-size: 25px;
+.btn-dark a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
+
+.btn-dark i {
+   font-size: 25px;
+    color: white;
+}
+
+
+
 
 .font-compacta{
     font-family: "Compacta", sans-serif;
@@ -94,5 +116,3 @@ body{
 #home-page p{
     font-size: 0.9em;
 }
-
-
