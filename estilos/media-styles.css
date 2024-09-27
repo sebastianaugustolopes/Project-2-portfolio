@@ -8,8 +8,6 @@
         font-size: 0.6em;
     }
 
-    
-
 }
 
 @media screen and (max-width: 996px){
@@ -34,6 +32,22 @@
     }
 
     
+}
+
+@media screen and (max-width: 767px){
+    .avatar-photo1{
+        display: none;
+    }
+
+    .avatar-photo1{
+        display: none;
+    }
+
+    .avatar-photo2{
+        display: block;
+    }
+
+
 }
 
 @media screen and (max-width: 440px){

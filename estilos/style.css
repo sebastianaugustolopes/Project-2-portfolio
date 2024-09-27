@@ -123,9 +123,16 @@ body{
     background-color: #F8F8F8;
     border-radius: 20px;
 }
+
+.avatar-photo2{
+    display: none;
+}
+
 .about-me-text{
    text-align: justify;
    width: 90%;
 }
+
+
 
 
