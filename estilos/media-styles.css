@@ -8,7 +8,17 @@
         font-size: 0.6em;
     }
 
+    
+
 }
+
+@media screen and (max-width: 996px){
+    .about-me-text{
+        font-size: 12.3px;
+     }
+    
+}
+
 @media screen and (max-width: 833px){
     #home-page h1,p{
         margin-left: 10%;
@@ -22,6 +32,8 @@
     #home-page p{
         font-size: 0.6em;
     }
+
+    
 }
 
 @media screen and (max-width: 440px){
@@ -46,5 +58,7 @@
     .btn-dark i {
         font-size: 20px; /* Reduz o tamanho do ícone em telas pequenas */
     }
+
+    
 
 }

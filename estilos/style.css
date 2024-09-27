@@ -62,14 +62,16 @@ body{
 
 .btn-dark i {
    font-size: 25px;
-    color: white;
 }
 
 
-
+.bi-list{
+    color: white;
+}
 
 .font-compacta{
     font-family: "Compacta", sans-serif;
+    
 }
 
 .font-mussels{
@@ -116,3 +118,14 @@ body{
 #home-page p{
     font-size: 0.9em;
 }
+
+.about-me-card{
+    background-color: #F8F8F8;
+    border-radius: 20px;
+}
+.about-me-text{
+   text-align: justify;
+   width: 90%;
+}
+
+
