@@ -34,19 +34,81 @@
     
 }
 
-@media screen and (max-width: 767px){
-    .avatar-photo1{
+@media screen and (max-width: 768px){
+
+   
+
+    .navbar{
+        background:#F4F4F4;
+    }
+
+    .navbar h1{
         display: none;
     }
 
-    .avatar-photo1{
+    .bi-code-slash{
+        color: black;
+    }
+
+    .nav .nav-link.active{
+        background-color: rgba(214, 214, 214, 0.464);
+        box-shadow: 2px 2px 20px rgba(187, 187, 187, 0.726);
+        color: black;
+        transition: 1ms;
+    }
+    
+    .nav .nav-link,
+    .nav-brand{
+        color: rgb(0, 0, 0);
+    }
+
+    .bi-list{
+        color: black;
+    }
+
+   
+
+    #home-page {
+        position: relative; /* Adiciona essa linha para garantir que os elementos filhos usem o section como referência */
+        overflow: hidden; /* Isso ajuda a garantir que o conteúdo permaneça dentro do contêiner */
+    }
+    
+    #home-page > div {
+        position: absolute;
+        top: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .conteudo{
+        text-shadow: -5px -5px 10px rgba(154, 154, 154, 0.312),
+        5px -5px 10px rgba(154, 154, 154, 0.312),
+        5px 5px 10px rgba(154, 154, 154, 0.312),
+        5px 5px 10px rgba(154, 154, 154, 0.312);
+        
+    }
+    
+    
+    
+    #home-page h1{
+        font-size: 1.5em;
+        line-height: 0.9;
+    }
+    
+    #home-page p{
+        font-size: 0.7em;
+    }
+
+    #home-page button{
         display: none;
     }
 
-    .avatar-photo2{
-        display: block;
+    .code-icon{
+        display: none;
     }
-
 
 }
 

@@ -12,13 +12,15 @@
 
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-styles.css" media="screen">
+
+
 </head>
 <body>
-    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+    <header class="navbar navbar-expand-lg sticky-top p-0" id="cabecalho">
         <div class="container">
             <div class="nav-brand d-flex align-items-center font-compacta">
-                <img src="imagens/logo-do-site.png" alt="Logo" class="me-3" style="width: 50px;">
-                <h1 class="m-0">PORTFOLIO</h1>
+                <i class="bi bi-code-slash mb-3 me-2"></i>
+                <h1 class="mb-3 mt-2">PORTFOLIO</h1>
             </div>
             
             <!-- Botão de colapso -->
@@ -27,8 +29,8 @@
             </button>
             
             <!-- Menu de navegação colapsável -->
-            <nav class="navbar-collapse collapse justify-content-end mt-2" id="menu-navegacao">
-                <ul class="nav nav-pills d-md-flex">
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-md-flex mb-3 mt-2">
                     <li class="nav-item">
                         <a href="#home-page" class="nav-link active">Home Page</a>
                     </li>
@@ -53,11 +55,12 @@
     </header>
     
     <section id="home-page">
-        <img class="w-100" src="imagens/capa-da-homepage.png" alt="Plano de fundo">
-        <div class="w-100 h-100 text-white">
+        <img class="w-100 d-none d-md-block" src="imagens/capa-da-homepage.png" alt="Plano de fundo">
+        <img class="w-100 d-md-none" src="imagens/avatar.jpg" alt="Plano de fundo mobile">
+        <div class="conteudo w-100 h-100 text-white">
             <h1 class="font-compacta">SEBASTIAN</h1>
             <p class="font-mussels">PROGRAMADOR FULL STACK
-                <i class="bi bi-code-slash"></i> <br>
+                <i class="code-icon bi bi-code-slash"></i> <br>
                 <button class="btn btn-dark">
                     <a href="https://github.com/ssebastianaugustto" target="_blank">
                         <i class="bi bi-github me-3"></i>
@@ -73,14 +76,12 @@
                 <div class="avatar-photo1 col-md-5">
                    <img src="imagens/avatar.jpg" alt="Avatar" class="d-block w-100 rounded">
                 </div>
-                <div class="avatar-photo2 col-md-5">
-                    <img src="imagens/avatar-2.png" alt="Avatar" class="d-block w-100 rounded">
-                 </div>
+                
                 <div  class="col-md-7 mt-3 mt-md-0 d-flex justify-content-center align-items-start flex-column ps-5 pb-3 p-md-0">
                     <h2 class="font-compacta">SOBRE MIM</h2>
                     <div class="about-me-text">
-                        <p class="m-0 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore consequatur, quia consectetur numquam neque modi nostrum ducimus temporibus rerum asperiores minus, commodi quae error itaque maiores deleniti in omnis!</p>
-                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, illo. Magnam at officia necessitatibus earum natus? Aspernatur ipsa consectetur reprehenderit, modi deserunt dolorem perferendis voluptatum nihil ipsam eos rem maxime!</p>
+                        <p class="m-0 mb-3">Meu nome é Sebastian Augusto, sou programador full stack e estou atualmente cursando o segundo semestre do curso de Desenvolvimento Web na Escola Britânica de Artes Criativas e Tecnologia (EBAC). Tenho experiência em desenvolvimento web, com foco em aplicações que envolvem JavaScript e web design.</p>
+                        <p class="m-0">Meus projetos são voltados para a criação de soluções funcionais, adaptativas e visualmente atrativas, sempre com o objetivo de proporcionar a melhor experiência para os usuários.</p>
                     </div>
 
                     <div class="tech-stack mt-3">
