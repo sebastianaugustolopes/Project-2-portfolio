@@ -36,43 +36,24 @@
 
 @media screen and (max-width: 768px){
 
-   
-
-    .navbar{
-        background:#F4F4F4;
-    }
 
     .navbar h1{
         display: none;
     }
 
     .bi-code-slash{
-        color: black;
+        color: rgb(255, 255, 255);
     }
 
-    .nav .nav-link.active{
-        background-color: rgba(214, 214, 214, 0.464);
-        box-shadow: 2px 2px 20px rgba(187, 187, 187, 0.726);
-        color: black;
-        transition: 1ms;
-    }
-    
-    .nav .nav-link,
-    .nav-brand{
-        color: rgb(0, 0, 0);
-    }
 
-    .bi-list{
-        color: black;
-    }
 
-   
 
     #home-page {
-        position: relative; /* Adiciona essa linha para garantir que os elementos filhos usem o section como referência */
-        overflow: hidden; /* Isso ajuda a garantir que o conteúdo permaneça dentro do contêiner */
+        position: relative; 
+        overflow: hidden;
     }
 
+    
     #home-page img{
         border-radius: 0 0 40px 40px;
     }
@@ -133,14 +114,8 @@
     }
 
     .btn-dark {
-        padding: 8px 15px; /* Reduz o padding em telas pequenas */
-        font-size: 14px; /* Reduz o tamanho do texto em telas pequenas */
-    }
-
-    .btn-dark i {
-        font-size: 20px; /* Reduz o tamanho do ícone em telas pequenas */
-    }
-
-    
+        padding: 8px 15px; 
+        font-size: 14px; 
+}
 
 }
