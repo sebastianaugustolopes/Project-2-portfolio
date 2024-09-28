@@ -36,16 +36,14 @@
 
 @media screen and (max-width: 768px){
 
-
     .navbar h1{
         display: none;
     }
 
     .bi-code-slash{
         color: rgb(255, 255, 255);
+        margin-left: 20px;
     }
-
-
 
 
     #home-page {
@@ -72,12 +70,6 @@
         
     }
     
-    .fullstack{
-        color: black;
-        text-shadow: 2px 0px 5px rgb(0, 0, 0);
-        margin-left: 25px;
-    }
-    
     
     #home-page h1{
         font-size: 1.5em;
@@ -88,9 +80,6 @@
         font-size: 0.7em;
     }
 
-    #home-page button{
-        display: none;
-    }
 
     .code-icon{
         display: none;

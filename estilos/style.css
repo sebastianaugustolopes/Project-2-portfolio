@@ -79,7 +79,24 @@ body{
 
 .bi-list{
     color: white;
+    font-size: 35px;
 }
+
+.navbar-toggler:focus {
+    outline: none; /* Remove o contorno */
+    box-shadow: none; /* Remove qualquer sombra de foco que possa existir */
+}
+
+.dropdown-menu {
+    background-color: #0000008a; /* Escolha a cor de fundo desejada */
+    color: white; /* Cor do texto opcional */
+    border: none; /* Remove a borda se desejar */
+}
+
+.dropdown-item{
+    color: white;
+}
+
 
 .font-compacta{
     font-family: "Compacta", sans-serif;
