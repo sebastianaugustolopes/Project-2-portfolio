@@ -72,14 +72,14 @@
         position: relative; /* Adiciona essa linha para garantir que os elementos filhos usem o section como referência */
         overflow: hidden; /* Isso ajuda a garantir que o conteúdo permaneça dentro do contêiner */
     }
+
+    #home-page img{
+        border-radius: 0 0 40px 40px;
+    }
     
     #home-page > div {
         position: absolute;
         top: 30%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
 
     }
 
@@ -91,6 +91,11 @@
         
     }
     
+    .fullstack{
+        color: black;
+        text-shadow: 2px 0px 5px rgb(0, 0, 0);
+        margin-left: 25px;
+    }
     
     
     #home-page h1{
@@ -110,6 +115,7 @@
         display: none;
     }
 
+    
 }
 
 @media screen and (max-width: 440px){
