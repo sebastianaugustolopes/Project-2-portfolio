@@ -85,7 +85,11 @@
         display: none;
     }
 
-    
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.438);
+
+    }
+
 }
 
 @media screen and (max-width: 440px){
@@ -105,6 +109,7 @@
     .btn-dark {
         padding: 8px 15px; 
         font-size: 14px; 
-}
+    }
 
+    
 }
