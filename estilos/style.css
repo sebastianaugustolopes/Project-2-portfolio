@@ -182,6 +182,9 @@ body{
     position: relative; /* Necessário para a imagem de fundo */
 }
 
+.nav-link{
+    padding: 15px;
+}
 
 
 
