@@ -21,15 +21,11 @@ body{
 }
 
 
-.navbar{
-    background-color: rgba(0, 0, 0, 0.11);
-    margin: 0 30px;
-    border-radius: 20px;
-}
 
-.navbar img{
-    max-width: 120px;
-}
+
+
+
+
 
 .bi-code-slash{
     font-size: 30px;
@@ -101,10 +97,13 @@ body{
 .navbar-collapse{
     width: 100%;
     max-width: 500px;
-    box-shadow: 2px 2px 30px black;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.986);
     border-radius: 30px;
     margin: 10px;
+
+    
 }
+
 
 .dropdown-item{
     color: white;
@@ -175,7 +174,7 @@ body{
     position: absolute; /* Para posicionar sobre a imagem */
     top: 0;
     left: 0;
-    width: 92%;
+    width: 100%;
     z-index: 10; /* Para garantir que esteja acima de outros elementos */
 }
 

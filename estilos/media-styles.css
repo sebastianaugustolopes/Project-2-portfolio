@@ -34,6 +34,7 @@
     
 }
 
+
 @media screen and (max-width: 768px){
 
     .navbar h1{
@@ -86,11 +87,13 @@
     }
 
     .navbar-collapse{
-        background-color: rgba(0, 0, 0, 0.438);
+        background-color: rgba(0, 0, 0, 0.719);
 
     }
 
+    
 }
+
 
 @media screen and (max-width: 440px){
     #home-page h1,p{
@@ -111,5 +114,11 @@
         font-size: 14px; 
     }
 
+    .nav-item{
+        width: 100%;
+        margin: auto;
+    }
+
+    
     
 }
