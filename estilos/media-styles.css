@@ -88,6 +88,7 @@
 
     .navbar-collapse{
         background-color: rgba(0, 0, 0, 0.897);
+        
 
     }
 
@@ -119,6 +120,12 @@
         margin: auto;
     }
 
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.897);
+        height: 327px;
+        
+
+    }
     
     
 }
